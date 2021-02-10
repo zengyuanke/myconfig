@@ -3,8 +3,8 @@ spring:
   profiles:
   - dev
 
-test: hello dev
-test2: hello test2 dev
+test: hello config dev
+test2: hello config test2 dev
 
 
 ---
@@ -12,5 +12,5 @@ spring:
   profiles:
   - prod
 
-test: hello prod
-test2: hello test2 prod
+test: hello config prod
+test2: hello config test2 prod
