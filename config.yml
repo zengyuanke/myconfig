@@ -1,0 +1,16 @@
+---
+spring:
+  profiles:
+  - dev
+
+test: hello dev
+test2: hello test2 dev
+
+
+---
+spring:
+  profiles:
+  - prod
+
+test: hello prod
+test2: hello test2 prod
