@@ -3,8 +3,8 @@ spring:
   profiles:
   - dev
 
-test: hello application dev changed 4
-test2: hello application test2 dev  changed 4
+test: hello application dev changed 5
+test2: hello application test2 dev  changed 5
 
 
 ---
